@@ -1,0 +1,8 @@
+body{
+    color: rgb(53, 53, 53);
+    background: rgb(219, 219, 219)
+}
+
+nav ul li{
+    display: inline
+}
