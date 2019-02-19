@@ -1,8 +1,176 @@
-body{
-    color: rgb(53, 53, 53);
-    background: rgb(219, 219, 219)
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  /* ---- element styles -----*/
+
+  img:hover{
+    /* opacity takes from 0 to 1 */
+opacity: .7;
+-moz-box-shadow:    0px 0px 20px 5px #098;
+-webkit-box-shadow: 0px 0px 20px 5px #098;
+box-shadow:         0px 0px 20px 5px #098;
+
 }
 
-nav ul li{
-    display: inline
+img{
+    height: 200px;
+    width: 200px;
 }
+  
+  /* ---- typography ---- */
+  
+  body {
+    color: #111;
+    background: rgb(173, 173, 173);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 147%;
+  }
+  
+  h1 {
+      font-size: 32px;
+      text-align: center;
+  }
+  
+  h2 {
+      font-size: 24px;
+      text-align: center;
+  }
+  
+  h3 {}
+  
+  /* ---- layout ---- */
+  section {
+      margin-bottom: 20px;
+      padding-top: 20px;
+  }
+
+  section:nth-of-type(even){
+background: white
+  }
+  .page-header  nav{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+  }
+
+  .page-header{
+    background: white;
+    color: rgb(46, 46, 46);
+    padding: 20px 0;
+    }
+
+  .page-header a{
+        color: rgb(46, 46, 46)
+        }
+        
+  .page-header a:hover{
+            color: turquoise
+        }
+       
+
+        nav ul li{
+            display: inline-block;
+        }
+        a{
+            color: orange;
+            text-decoration: none;
+        }
+        a:hover{
+            color: violet
+        }
+        
+        #WORLD p{
+            text-align: center
+        }
+
+        #WORLD ul{
+            text-align: center;
+        }
+        #WORLD ul li{
+            display: inline-block;
+            text-align: center;
+        }
+        
+        header{
+            align-content: center;
+        }
+
+        #CONTACT{
+            text-align: center
+        }
+        #CONTACT ul li{
+            display: inline-block
+        }
+  
+  .main-header{
+  
+  }
+  #ABOUT .container ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  
+  .main-footer {
+    color: white;
+    padding: 60px 0;
+    background: #111;
+  }
+  
+  .container {
+    margin: 0 20px;
+    max-width: 1024px;
+    border: 1px solid black;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  /* ---- components ---- */
+  .page-header h1{
+    font-size: 50px;
+  }
+  
+  /* ---- section ---- */
+  
+  
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) {
+  
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+     
+      }
+  
+
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+      .container{
+          margin: 0 auto;
+      }
+  
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+  
+  }
+
+
+
+
+
+
